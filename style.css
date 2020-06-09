@@ -14,3 +14,12 @@ border-radius: 56px;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+  
+.leftpart{
+    height:100%;
+    width:50%;
+    background-color: rgb(109, 151, 175);
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
