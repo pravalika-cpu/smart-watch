@@ -23,3 +23,15 @@ border-radius: 56px;
     left: 0;
     position: fixed;
     text-align: center;
+}
+
+    .rightpart{
+        height:100%;
+        width:50%;
+        background-color: rgb(159, 159, 189);
+        right:0;
+        left: 55;
+        position: fixed;
+        text-align: center;
+        margin-left: 10px;
+    }
