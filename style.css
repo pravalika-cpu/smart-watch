@@ -3,18 +3,16 @@
 position: absolute;
 width: 156px;
 height: 161px;
-left:50
-
-
+top:50%;
+left:50%;
 background: #151313;
 border-radius: 56px;
 }
-.R2
-{
-
+.R2{
 position: absolute;
 width: 72px;
 height: 82px;
+
 
 background: #8A7070;
 }
