@@ -1,4 +1,6 @@
-
+let seconds=0;
+let minutes=0;
+let hours=0;
 function stopWatch(){
     let seconds=0;
 let minutes=0;
