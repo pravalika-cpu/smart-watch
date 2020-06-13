@@ -15,4 +15,4 @@ function stopWatch(){
 
 document.getElementById("display").innerHTML=hours+":"+minutes+":"+seconds;
 }
-window.setInterval(stopwatch,1000);
+window.setInterval(stopwatch,10);
