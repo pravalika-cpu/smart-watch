@@ -1,7 +1,8 @@
-let seconds=0;
-let minutes=0;
-let hours=0;
+
 function stopWatch(){
+    let seconds=0;
+let minutes=0;
+let hours=0
     seconds++
     if(seconds/60==1){
         seconds=0;
@@ -15,4 +16,4 @@ function stopWatch(){
 
 document.getElementById("display").innerHTML=hours+":"+minutes+":"+seconds;
 }
-window.setInterval(stopwatch(),10);
+window.setInterval(stopwatch,10);
