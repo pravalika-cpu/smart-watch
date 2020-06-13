@@ -7,4 +7,7 @@ function stopwatch(){
         minutes++
     }
 
+
+document.getElementById("display").innerHTML=hours+":"+minutes+":"+seconds;
 }
+window.setInterval(stopwatch,1000)
