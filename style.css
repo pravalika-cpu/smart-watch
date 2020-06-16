@@ -44,3 +44,31 @@ border-radius: 56px;
     .buttons{
         text-align:center;
     }
+
+    .home
+    {
+       text-align: left;
+       color: teal;
+       left:0;
+       float:left;
+       bottom: 0;
+       
+    }
+    .time
+    {
+        color: violet;
+        text-align: center;
+    }
+    .message
+    {
+        width: auto;
+        padding: 0;
+        color: tomato;
+        float: left;
+    }
+    .myAudio
+    {
+        width: auto;
+        padding: 0;
+        float: left;
+    
