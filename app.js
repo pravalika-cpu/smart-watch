@@ -1,18 +1,20 @@
-let seconds=0;
-let minutes=0;
-let hours=0;
-function stopWatch(){
-    seconds++
-    if(seconds/60===1){
-        seconds=0;
-        minutes++
-        if(minutes/60===1){
-            minutes=0;
-            hours++
-        }
-    }
-
-
-document.getElementById("display").innerHTML=hours+":"+minutes+":"+seconds;
+function time()
+{
+var d=new Date();
+var time=d.toLocaleTimeString();
+document.getElementById("time").innerText=time;
 }
-window.setInterval(stopwatch,10);
+function message()
+{
+  document.getElementById("home").style.display="block"
+  document.getElementById("time").innerText="Hola"
+}
+// var x = document.getElementById("myAudio"); 
+
+function playAudio() {
+//   var x = document.getElementById("myAudio"); 
+//   x.play(); 
+document.getElementById("time").innerHTML+='<iframe class="audio"src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" frameborder-radius="15" allowtransparency="true" allow="encrypted-media"></iframe>';
+
+} 
+
